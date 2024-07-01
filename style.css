@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Chillax';
+    src: url(./Fuentes/Chillax_Complete/Chillax_Complete/Fonts/TTF/Chillax-Variable.ttf);
+}
+
 body {
     margin: 0;
     padding: 0;    
@@ -87,3 +92,134 @@ body {
 .social-icon:hover {
     color: #000;
 }
+
+/* msalv@LAPTOP-QJKSGV84 MINGW64 ~/OneDrive/Documentos/Prueba
+$ git config user.name
+Martina Salvatierra
+
+msalv@LAPTOP-QJKSGV84 MINGW64 ~/OneDrive/Documentos/Prueba
+$ git config user.email
+msalvatierra047@gmail.com
+
+msalv@LAPTOP-QJKSGV84 MINGW64 ~/OneDrive/Documentos/Prueba
+$ git init
+Initialized empty Git repository in C:/Users/msalv/OneDrive/Documentos/Prueba/.git/
+
+msalv@LAPTOP-QJKSGV84 MINGW64 ~/OneDrive/Documentos/Prueba (master)
+$
+ *  History restored 
+
+
+msalv@LAPTOP-QJKSGV84 MINGW64 ~/OneDrive/Documentos/Prueba (master)
+$ cd Documentos/Prueba/
+bash: cd: Documentos/Prueba/: No such file or directory
+
+msalv@LAPTOP-QJKSGV84 MINGW64 ~/OneDrive/Documentos/Prueba (master)
+$ cd Documents/Prueba/
+bash: cd: Documents/Prueba/: No such file or directory
+
+msalv@LAPTOP-QJKSGV84 MINGW64 ~/OneDrive/Documentos/Prueba (master)
+$ cd C:\Users\msalv\OneDrive\Documentos\Prueba
+bash: cd: C:UsersmsalvOneDriveDocumentosPrueba: No such file or directory
+
+msalv@LAPTOP-QJKSGV84 MINGW64 ~/OneDrive/Documentos/Prueba (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/msalv/OneDrive/Documentos/Prueba/.git/
+
+msalv@LAPTOP-QJKSGV84 MINGW64 ~/OneDrive/Documentos/Prueba (master)
+$ git init mi_repositorio
+Initialized empty Git repository in C:/Users/msalv/OneDrive/Documentos/Prueba/mi_repositorio/.git/
+
+msalv@LAPTOP-QJKSGV84 MINGW64 ~/OneDrive/Documentos/Prueba (master)
+$ dir mi_repositorio
+
+msalv@LAPTOP-QJKSGV84 MINGW64 ~/OneDrive/Documentos/Prueba (master)
+$ cd mi_repositorio
+
+msalv@LAPTOP-QJKSGV84 MINGW64 ~/OneDrive/Documentos/Prueba/mi_repositorio (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+msalv@LAPTOP-QJKSGV84 MINGW64 ~/OneDrive/Documentos/Prueba/mi_repositorio (master)
+$ git add .
+
+msalv@LAPTOP-QJKSGV84 MINGW64 ~/OneDrive/Documentos/Prueba/mi_repositorio (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+msalv@LAPTOP-QJKSGV84 MINGW64 ~/OneDrive/Documentos/Prueba/mi_repositorio (master)
+$ git commit -m "Primer archivo del repositorio"
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+
+msalv@LAPTOP-QJKSGV84 MINGW64 ~/OneDrive/Documentos/Prueba/mi_repositorio (master)
+$ git log
+fatal: your current branch 'master' does not have any commits yet
+
+msalv@LAPTOP-QJKSGV84 MINGW64 ~/OneDrive/Documentos/Prueba/mi_repositorio (master)
+$ git add .
+
+msalv@LAPTOP-QJKSGV84 MINGW64 ~/OneDrive/Documentos/Prueba/mi_repositorio (master)
+$ git commit -m "Primer archivo del repositorio"
+[master (root-commit) 8728996] Primer archivo del repositorio
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+
+msalv@LAPTOP-QJKSGV84 MINGW64 ~/OneDrive/Documentos/Prueba/mi_repositorio (master)
+$ git log
+commit 8728996147b3e08b2533d2285cb231af9324c7cc (HEAD -> master)
+Author: Martina Salvatierra <msalvatierra047@gmail.com>
+Date:   Sun Jun 30 23:22:33 2024 -0300
+
+    Primer archivo del repositorio
+
+msalv@LAPTOP-QJKSGV84 MINGW64 ~/OneDrive/Documentos/Prueba/mi_repositorio (master)
+$ cd C:/Users/msalv/OneDrive/Documentos/Prueba/mi_repositorio/
+
+msalv@LAPTOP-QJKSGV84 MINGW64 ~/OneDrive/Documentos/Prueba/mi_repositorio (master)
+$ git remote add origin https://github.com/Martina-B-Salvatierra/mi-repositorio.git
+
+msalv@LAPTOP-QJKSGV84 MINGW64 ~/OneDrive/Documentos/Prueba/mi_repositorio (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 234 bytes | 117.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Martina-B-Salvatierra/mi-repositorio.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+msalv@LAPTOP-QJKSGV84 MINGW64 ~/OneDrive/Documentos/Prueba/mi_repositorio (master)
+$ git add .
+
+msalv@LAPTOP-QJKSGV84 MINGW64 ~/OneDrive/Documentos/Prueba/mi_repositorio (master)
+$ git commit -m "Primer cambio al archivo del repositorio"
+[master 830ce4b] Primer cambio al archivo del repositorio
+ 5 files changed, 118 insertions(+)
+ create mode 100644 Recursos/avatar-ej1.png
+ create mode 100644 Recursos/avatar-ej2.png
+ create mode 100644 Recursos/bg-palm.jpg
+ create mode 100644 style.css
+
+msalv@LAPTOP-QJKSGV84 MINGW64 ~/OneDrive/Documentos/Prueba/mi_repositorio (master)
+$ git push
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 5.58 MiB | 1.58 MiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Martina-B-Salvatierra/mi-repositorio.git
+   8728996..830ce4b  master -> master
+*/
