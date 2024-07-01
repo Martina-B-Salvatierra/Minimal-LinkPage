@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;    
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./Recursos/bg-palm.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+.profile {
+    margin-bottom: 50px;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.profile-name {
+    font-size: 20px;
+    margin: 0;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 75px;
+}
+
+.link {
+    background-color: #fffbfa;
+    color: #444;
+    padding: 10px;
+    border-radius: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.link:hover {
+    background-color: #ffffff9a;
+    color: #000;
+}
+
+.link i {
+    color: #03b3a1;
+    font-size: 20px;
+    margin-right: 40%;
+}
+
+.link:hover i {
+    color: #00ffe5;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.social-icon {
+    color: #444;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #000;
+}
